@@ -1,0 +1,16 @@
+{
+  "name": "chat_service_with_filesharing",
+  "version": "1.0.0",
+  "description": "html_project_m05",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Md. Shakil Ahmmed Shajol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "3.x.x",
+    "jquery": "^3.4.1",
+    "socket.io": "1.x.x"
+  }
+}

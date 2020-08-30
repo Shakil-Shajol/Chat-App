@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Message!</title>
+		<meta charset="UTF-8">
+		<link type='text/css' rel='stylesheet' href='style/main.css'/>
+		<script type='text/javascript' src='js/jquery.js'></script>
+		<script type='text/javascript' src='js/socket.io.js'></script>
+		<script type='text/javascript'  src='js/myScript.js'></script>
+	</head>
+	<body>
+		<div id='main'>
+			<center>
+				<div id='login'>
+					<p>Please enter your Username to join the chatbox!!</p>
+					<input type="text" id='username' placeholder='Your @username' />
+					<br/>
+					<p id='err' >Username is mandatory</p>
+					<button id='btnjoin'>Join</button>
+				</div>
+			</center>
+			<div id='chatbox'>
+				<div id='conected_people'>
+					<b>Connected Users :</b><span id='people'></span>
+				</div>
+				<div id='chathistory'>
+					<ul id='message'></ul>
+				</div>
+				<div id='writechat'>
+					<input type="text" id='msg' placeholder='Your messages here' />
+					<img src="imgs/send_button.png" id='btnsend' class='btn' height='25px' width='25px' alt='Send'/>
+					<label id='btnsendfile'>
+					<img src="imgs/attachment.png"  class='btn' height='25px' width='25px' alt='Add Files'/>
+					<input type='file' style="display: none;"/>
+					</label>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
